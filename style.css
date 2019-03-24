@@ -1,0 +1,73 @@
+html, body{
+    with: 100%;
+    height: 100%;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu ul{
+    display: flex; 
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  
+  .fellows-category ul{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      list-style-type: none;
+  }
+  .fellows h2 {
+      color: white;
+      
+  }
+  .fellows h3 {
+      color: black
+  }
+  
+  .fellows span {
+      color: orange
+  }
+  
+  .fellows img {
+      width: 250px;
+      height: 300px;
+  }
+  
+  .fellows img:hover{
+    opacity: 0.5;
+  }
+  
+  .fellows {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+  }
+  .child {
+      padding-left: 20px;
+      padding-right: 20px;
+    padding-top: 17px;
+  }
+  .fellows-img {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  
+  .fellows .fellows-img{
+    position: relative;
+  }
+  
+  .fellows .fellows-img .description {
+    position: absolute;
+    top: 10px; 
+    left: 5px;
+    right: 5px;
+    display: none;
+  }
+  
+  .fellows .fellows-img:hover .description{
+    display: block;
+  }
